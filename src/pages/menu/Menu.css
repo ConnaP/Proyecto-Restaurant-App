@@ -1,0 +1,12 @@
+.menu {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(156, 40, 19, 0.832);
+    
+}
+
+.card {
+    width: 80%;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+}

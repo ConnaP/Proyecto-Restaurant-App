@@ -1,0 +1,49 @@
+.header {
+  margin: 0;
+  padding: 0;
+}
+
+.header-container {
+  background-color: black;
+  color: white;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+ul li .nav-link {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0 20px !important;
+}
+
+ul li .nav-link .active{
+  border-color: white;
+}
+
+ul li .nav-link:hover {
+  color: red;
+}
+
+.navbar-toggler-icon {
+  background-color: white;
+}
+
+.title-logo {
+  padding: 30px 20px;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+@media screen and (min-width: 400px) {
+  /* ul li .nav-link {
+    padding: 0 20px !important;
+  } */
+}
+
+.logo-img {
+ width: 50px;
+ height: 50px;
+}
