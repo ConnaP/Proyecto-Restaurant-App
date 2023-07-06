@@ -11,7 +11,7 @@ export const Reserve = () => {
   return (
     <>
       <div className="container-reserve">
-        <div className="form">
+        <div className="form card">
           <h1 className="title">Reserva</h1>
           <div className="mb-3 form-input">
             <label for="exampleFormControlInput1" className="form-label">
@@ -52,6 +52,14 @@ export const Reserve = () => {
               id="exampleFormControlInput1"
               placeholder="56912341234"
             />
+          </div>
+          <div className="mb-3 form-input">
+            <button
+              type="button"
+              className="btn btn-outline-secondary btn-style"
+            >
+              Enviar
+            </button>
           </div>
         </div>
       </div>

@@ -1,7 +1,6 @@
 import "./We.css";
 import About from "../../components/we/about";
 import Form from "../../components/we/Form";
-import Contact from "../../components/we/Contact";
 
 export const We = () => {
   const title = "¿QUIENES SOMOS?";
@@ -21,7 +20,6 @@ export const We = () => {
 
         <Form />
 
-        {/* <Contact /> */}
       </div>
     </>
   );
