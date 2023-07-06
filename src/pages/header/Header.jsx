@@ -1,4 +1,3 @@
-import React from "react";
 import "./Header.css";
 import logo from '../../assets/img/logo.jpeg';
 
@@ -37,7 +36,7 @@ export const Header = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/nosotros">
+                <a className="nav-link" href="/we">
                   Nosotros
                 </a>
               </li>

@@ -1,4 +1,3 @@
-import React from "react";
 import menu from "../../assets/img/menu3.jpeg"
 import "./Menu.css"
 
