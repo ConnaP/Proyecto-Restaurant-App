@@ -2,7 +2,7 @@ import React from "react";
 import menu from "../../assets/img/menu3.jpeg"
 import "./Menu.css"
 
-const Menu = () => {
+export const Menu = () => {
   return (
     <div className="menu">
       <div className="card">

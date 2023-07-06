@@ -4,10 +4,10 @@
   background-image: url("../../assets/img/nosotros.jpeg");
   background-size: cover;
   background-position: center;
-  background-color: rgba(32,32,32,255);
+  background-color: rgba(32, 32, 32, 255);
 }
 .container-text {
-    background-color: rgba(32,32,32,200);
+  background-color: rgba(32, 32, 32, 200);
   padding: 20px 50px;
   color: white;
 }
@@ -27,7 +27,7 @@
 }
 
 .container-form {
- padding: 40px 40px;
+  padding: 40px 40px;
   width: 60%;
   color: white;
 }
@@ -37,15 +37,15 @@
   padding: 5px 30px;
 }
 
-.text-gray-400{
-    border-color: rgba(229,231,235,var(--tw-border-opacity));
-    width: 1.5rem;
+.text-gray-400 {
+  border-color: rgba(229, 231, 235, var(--tw-border-opacity));
+  width: 1.5rem;
 }
 .contact {
-    width: 100%;
-    background-color: rgba(32,32,32,200);
-    color: white;
-    padding: 50px 50px;
+  width: 100%;
+  background-color: rgba(32, 32, 32, 200);
+  color: white;
+  padding: 50px 50px;
 }
 
 @media screen and (max-width: 800px) {

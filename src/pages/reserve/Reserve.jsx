@@ -1,40 +1,58 @@
 import React from "react";
 import "./Reserve.css";
+import { DatePicker, TimePicker, DateTimePicker } from "@material-ui/pickers";
+import { useState } from "react";
 
-const Reserve = () => {
+export const Reserve = () => {
+  const [dateSelected, changeDateSeleted] = useState(new Date());
+
+  console.log(dateSelected);
+
   return (
     <>
-      <div>
-        <div class="col-md-5">
-          <div class="form-group">
-            <div class="input-group date" id="datetimepicker6">
-              <input type="text" class="form-control" value="hjasdb" />
-              <span class="input-group-addon">
-                <span class="glyphicon glyphicon-calendar"></span>
-              </span>
-            </div>
+      <div className="container-reserve">
+        <div className="form">
+          <h1 className="title">Reserva</h1>
+          <div className="mb-3 form-input">
+            <label for="exampleFormControlInput1" className="form-label">
+              Fecha y Hora:
+            </label>
+            <DateTimePicker value={dateSelected} onChange={changeDateSeleted} />
           </div>
-        </div>
-        <div className="mb-3">
-          <label for="exampleFormControlInput1" className="form-label">
-            Email address
-          </label>
-          <input
-            type="email"
-            className="form-control"
-            id="exampleFormControlInput1"
-            placeholder="name@example.com"
-          />
-        </div>
-        <div className="mb-3">
-          <label for="exampleFormControlTextarea1" className="form-label">
-            Example textarea
-          </label>
-          <textarea
-            className="form-control"
-            id="exampleFormControlTextarea1"
-            rows="3"
-          ></textarea>
+
+          <div className="mb-3 form-input">
+            <label for="exampleFormControlInput1" className="form-label">
+              Nombre:
+            </label>
+            <input
+              type="name"
+              className="form-control"
+              id="exampleFormControlInput1"
+              placeholder="Pedro Venegas"
+            />
+          </div>
+          <div className="mb-3 form-input">
+            <label for="exampleFormControlInput1" className="form-label">
+              Correo electrónico:
+            </label>
+            <input
+              type="email"
+              className="form-control"
+              id="exampleFormControlInput1"
+              placeholder="nombre@ejemplo.com"
+            />
+          </div>
+          <div className="mb-3 form-input">
+            <label for="exampleFormControlInput1" className="form-label">
+              Teléfono:
+            </label>
+            <input
+              type="number"
+              className="form-control"
+              id="exampleFormControlInput1"
+              placeholder="56912341234"
+            />
+          </div>
         </div>
       </div>
     </>

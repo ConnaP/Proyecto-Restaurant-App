@@ -1,18 +1,13 @@
-import Header from "./pages/header/Header"
-// import Menu from "./pages/menu/Menu"
-// import Nosotros from "./pages/nosotros/Nosotros"
-import Reserve from "./pages/reserve/Reserve"
+import { Header } from "./pages/header/Header";
+import { MainRoutes } from "./routes/Routes";
 
 function App() {
-
   return (
     <>
       <Header />
-      {/* <Menu /> */}
-      {/* <Nosotros/> */}
-      <Reserve />
+      <MainRoutes />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

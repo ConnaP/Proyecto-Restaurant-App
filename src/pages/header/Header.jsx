@@ -2,7 +2,7 @@ import React from "react";
 import "./Header.css";
 import logo from '../../assets/img/logo.jpeg';
 
-function Header() {
+export const Header = () => {
   return (
     <>
       <nav className="navbar navbar-expand-lg bg-body-tertiary header">
@@ -27,17 +27,17 @@ function Header() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="#">
+                <a className="nav-link" aria-current="page" href="/">
                   Menú
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="/reserve">
                   Haz tu reserva
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="/nosotros">
                   Nosotros
                 </a>
               </li>
