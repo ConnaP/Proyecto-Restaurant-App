@@ -1,15 +1,17 @@
-import { defineConfig } from  'vite' 
+// vite.config.js
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
-// https://vitejs.dev/config/ 
-export  default  defineConfig ( ( { command } ) => { 
-  const config = { 
-    complementos : [ reaccionar ()], 
-    base : 'https://github.com/ConnaP/Proyecto-Restaurant-App.github.io/' , 
-  } 
+// https://vitejs.dev/config/
+export default defineConfig(({ command }) => {
+  const config = {
+    plugins: [react()],
+    base: 'https://github.com/ConnaP.github.io/Proyecto-Restaurant-App/',
+  }
 
-  if (comando !== 'serve' ) { 
-    config. base = '/react-vite-gh-pages/'
-   } 
+  if (command !== 'serve') {
+    config.base = '/react-vite-gh-pages/'
+  }
 
-  return config 
+  return config
 })
