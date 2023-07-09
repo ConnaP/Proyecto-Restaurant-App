@@ -19,10 +19,6 @@ const Form = ({ user }) => {
     console.log("asa", data);
 
     return setSessionStorageData([]);
-
-    // return () => {
-    //   second
-    // }
   }, []);
 
   const handleChange = (event) => {
