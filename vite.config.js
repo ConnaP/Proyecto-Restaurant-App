@@ -12,6 +12,7 @@ export default defineConfig(({ command }) => {
   if (command !== 'serve') {
     config.base = '/react-vite-gh-pages/'
   }
+  
 
   return config
 })
