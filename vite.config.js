@@ -9,9 +9,9 @@ export default defineConfig(({ command }) => {
     base: 'https://github.com/ConnaP.github.io/Proyecto-Restaurant-App/',
   }
 
-  if (command !== 'serve') {
-    config.base = '/react-vite-gh-pages/'
-  }
+  // if (command !== 'serve') {
+  //   config.base = '/react-vite-gh-pages/'
+  // }
 
-  return config
+  // return config
 })
