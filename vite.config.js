@@ -6,11 +6,11 @@ import react from '@vitejs/plugin-react'
 export default defineConfig(({ command }) => {
   const config = {
     plugins: [react()],
-    base: '/',
+    base: 'https://github.com/ConnaP.github.io/Proyecto-Restaurant-App/',
   }
 
   if (command !== 'serve') {
-    config.base = 'https://github.com/ConnaP.github.io/Proyecto-Restaurant-App/react-vite-gh-pages/'
+    config.base = '/react-vite-gh-pages/'
   }
 
   return config
