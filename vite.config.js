@@ -4,7 +4,7 @@ import { defineConfig } from  'vite'
 export  default  defineConfig ( ( { command } ) => { 
   const config = { 
     complementos : [ reaccionar ()], 
-    base : 'https://github.com/ConnaP.github.io/Proyecto-Restaurant-App/' , 
+    base : 'https://github.com/ConnaP/Proyecto-Restaurant-App.github.io/' , 
   } 
 
   if (comando !== 'serve' ) { 
