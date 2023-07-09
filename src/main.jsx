@@ -9,12 +9,12 @@ import esLocal from "date-fns/locale/es";
 import { BrowserRouter } from 'react-router-dom'
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
+  // <React.StrictMode>
     <BrowserRouter>
       <MuiPickersUtilsProvider utils={DateFnsUtils} locale={esLocal}>
         {/* <Header /> */}
         <App />
       </MuiPickersUtilsProvider>
     </BrowserRouter>
-  </React.StrictMode>
+  // </React.StrictMode>
 );
